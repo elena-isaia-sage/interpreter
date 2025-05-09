@@ -9,6 +9,6 @@ public class Division implements Expression {
 
     @Override
     public Integer interpret(Context context) {
-        return left.interpret(context) / (right.interpret(context));
+        return left.interpret(context) / right.interpret(context);
     }
 }
